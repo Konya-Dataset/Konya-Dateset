@@ -1,0 +1,1 @@
+# Konya_Mekatronik
