@@ -1,6 +1,6 @@
 # Investigating the Characteristics of Environments and a Wide Variety of Indoor Challenges
 
-<table><tbody><tr><td colspan="2"><img src="/kutu.jpg"></td></tr></tbody></table>
+<table><tbody><tr><td colspan="2"><img src="/figures/kutu.jpg"></td></tr></tbody></table>
 
 ---
 
@@ -17,7 +17,7 @@ In real-world conditions, it is very important for indoor robots to be aware of 
 | [Home1.4](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EUuEU0hG695GtJexqqYRmY0B15v9GXAoCyQ3Cvb1lF_yRQ?e=QfzPfP) | 4 M\*\*\*\*\*, I\*\*\*\*, F\*\*, TR\*\* LL\*\*\*(according to Home1.0,1,2) | 12.5      | 101s     | 1280x720   | On              |
 | [Home1.5](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EYZhLEsjKBhDu1jwJVelOSIBxpcnuNckBk_eZOjRVGBU_g?e=NizMxc) | M\*\*\*\*\*,I\*\*\*\*, F\*\*\*, TR\*\* LL\*\*\*(according to Home1.0,1,2)  | 14.9      | 121s     | 1280x720   | On              |
 
-Ground Truth  [![](/ev1.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/ErUrWlImOk9PqfiLjeYQ3coB_TdvaMRZSNEGZJs4R4z_uA?e=fU7vpU)
+Ground Truth  [![](/figures/ev1.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/ErUrWlImOk9PqfiLjeYQ3coB_TdvaMRZSNEGZJs4R4z_uA?e=fU7vpU)
 
 | Name                                                                                                                                                 | Challenging                                                                             | Size (GB) | Duration | Resolution | Laser Projector |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------- | -------- | ---------- | --------------- |
@@ -28,7 +28,7 @@ Ground Truth  [![](/ev1.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/pers
 | [Home2.4](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EX5iQHa1MgVCruW8v87qdv4B2yYPHKUveCDr-Mp1Gpi1bg?e=cHCcOd) | M\*\*\*\*\*, I\*\*\*, LL\*\*(according to Home1.0,1,2,3)                                | 10.2      | 82s      | 1280x720   | On              |
 | [Home2.5](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/ETeUUOhO1YpKnsFJu_qL2kkBPM9-OeOLhL474PY9s3a4DQ?e=8fe6fr) | M\*\*\*\*\*,I\*\*\*\*, F\*\*\*, VM\*\*\*\*\*, TR\*\* LL\*\*(according to Home1.0,1,2,3) | 13.2      | 107s     | 1280x720   | On              |
 
-Ground Truth [![](/ev2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/ErUrWlImOk9PqfiLjeYQ3coB_TdvaMRZSNEGZJs4R4z_uA?e=fU7vpU)
+Ground Truth [![](/figures/ev2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/ErUrWlImOk9PqfiLjeYQ3coB_TdvaMRZSNEGZJs4R4z_uA?e=fU7vpU)
 
 | Name                                                                                                                                                       | Challenging                     | Size (GB) | Duration | Resolution | Laser Projector |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------- | -------- | ---------- | --------------- |
@@ -36,7 +36,7 @@ Ground Truth [![](/ev2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/person
 | [Home2_mirror1](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/ET0bI2y115JEpHb0Zz03ZUoBWajPXY4jeo5m1Dqkevs7rQ?e=w5mvhz) | M\*\*\*,I\*, TR\*\*\*\*\*       | 3.4       | 44s      | 640x480    | Off             |
 | [Home2 mirror2](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/ETiuhjMbELZGm5kouhSqi2kBg0fXUlvfAL0aLy4D-enWuQ?e=p0bVS4) | M\*\*\*,I\*, TR\*\*\*\*\*       | 3.3       | 42s      | 640x480    | Off             |
 
-Ground Truth [![](/ev12kat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Euk4H2NDaWVHq9nB_F2asrQBnV2l94-x3ESpxxrQaTkdfw?e=A4S1gA)
+Ground Truth [![](/figures/ev12kat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Euk4H2NDaWVHq9nB_F2asrQBnV2l94-x3ESpxxrQaTkdfw?e=A4S1gA)
 
 | Name                                                                                                                                                              | Challenging                                            | Size (GB) | Duration | Resolution | Laser Projector |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------- | -------- | ---------- | --------------- |
@@ -47,7 +47,7 @@ Ground Truth [![](/ev12kat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/p
 | [Academic building1.4](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EXW73FMCMY9Io9y-bxU0ciwBIql5ovtokUARY8mQmVqawQ?e=cEffJ8) | M\*\*,I\*\*\*, F\*\*, S\*\*                            | 17.1      | 221s     | 640x480    | Off             |
 | [Academic building1.5](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EU3t9U4lqZ1PlcOZazrra_8BnLCC172h8oFgF3rW_76sPw?e=RMUAeQ) | M\*\*,I\*\*\*\*, F\*\*, S\*\*, TR\*                    | 18.1      | 233s     | 640x480    | Off             |
 
-Ground Truth [![](/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/EhUKpTc2jHVIhqYLCX3JwNkBDtaaOOmFMk7BjkJUWf80SQ?e=GJ6ZNe)
+Ground Truth [![](/figures/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/EhUKpTc2jHVIhqYLCX3JwNkBDtaaOOmFMk7BjkJUWf80SQ?e=GJ6ZNe)
 
 | Name                                                                                                                                                                | Challenging                                                 | Size (GB) | Duration | Resolution | Laser Projector |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------- | -------- | ---------- | --------------- |
@@ -58,7 +58,7 @@ Ground Truth [![](/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/
 | [Academic_building1_MS4](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EURk37gxuI1Ek7SIvmjyAIkBYDuFV3RWyCOQqHiV6CtQfg?e=vIQ4DX) | M\*\*\*\*\*,I\*\*\*\*,C\*\*\*,TR\*\*,D\*,S\*\*,MS\*\*\*\*\* | 16.8      | 216s     | 640x480    | Off             |
 | [Academic_building1_MS5](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EQ4DtPDmAz1LsjHQ1_L7lHIBduSkvXARrH_s5iaGXOi-yw?e=H3Ng2Q) | M\*\*\*\*,I\*\*\*\*,C\*\*\*,TR\*\*,D\*,S\*\*\*,MS\*\*\*\*   | 17.2      | 222s     | 640x480    | Off             |
 
-Ground Truth [![](/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Eiir9mLnHltGlCvnEh0WO9UBqve9o00SgxzsISMzZ90r9g?e=XsCpzh)
+Ground Truth [![](/figures/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Eiir9mLnHltGlCvnEh0WO9UBqve9o00SgxzsISMzZ90r9g?e=XsCpzh)
 
 | Name                                                                                                                                                                         | Challenging                                             | Size (GB) | Duration | Resolution | Laser Projector |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------- | -------- | ---------- | --------------- |
@@ -71,7 +71,7 @@ Ground Truth [![](/cblokkat2.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/
 | [Academic building2 ground floor](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/EcxIyuTUo0NJtRgWt9aXIjUBxafvnFVUJ1WGeV3OeBfDeA?e=ujV6L9) | M\*\*,I\*\*\*\*, F\*\*, S\*\*\*\*, TR\*\*\*\*           | 13.6      | 226s     | 640x480    | Off             |
 | [Academic building2 section](https://erbakanedutr-my.sharepoint.com/:u:/g/personal/mumineyildiz_erbakan_edu_tr/Ebz_bTzd5bZAiRaPnI285ssB6IQmkNJlurEu7pfZL2T1cg?e=Cz3Ezh)      | M\*\*\*\*\*,I\*\*\*\*, F\*\*\*, TR\*                    | 14.5      | 186s     | 640x480    | Off             |
 
-Ground Truth [![](/fakulte1.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Eiir9mLnHltGlCvnEh0WO9UBqve9o00SgxzsISMzZ90r9g?e=XsCpzh)
+Ground Truth [![](/figures/fakulte1.png)](https://erbakanedutr-my.sharepoint.com/:f:/g/personal/mumineyildiz_erbakan_edu_tr/Eiir9mLnHltGlCvnEh0WO9UBqve9o00SgxzsISMzZ90r9g?e=XsCpzh)
 
 | Name                                                                                                                                                              | Challenging                                                                    | Size (GB) | Duration | Resolution | Laser Projector |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------- | -------- | ---------- | --------------- |
