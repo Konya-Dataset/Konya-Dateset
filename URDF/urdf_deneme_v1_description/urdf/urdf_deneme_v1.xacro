@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<robot name="urdf_deneme_v1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find urdf_deneme_v1_description)/urdf/materials.xacro" />
+<!-- <xacro:include filename="$(find urdf_deneme_v1_description)/urdf/urdf_deneme_v1.trans" /> -->
+<!-- <xacro:include filename="$(find urdf_deneme_v1_description)/urdf/urdf_deneme_v1.gazebo" /> -->
+<xacro:include filename="$(find urdf_deneme_v1_description)/urdf/_d435i.urdf.xacro" />
+<xacro:arg name="use_nominal_extrinsics" default="true" />
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.18984950069351636 0.00431810242947878 0.04713925985262432" rpy="0 0 0"/>
+    <mass value="4.0349672424591105"/>
+    <inertia ixx="0.025988" iyy="0.022086" izz="0.034221" ixy="-5.9e-05" iyz="-6.5e-05" ixz="1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<xacro:sensor_d435i parent="base_link" use_nominal_extrinsics="$(arg use_nominal_extrinsics)">
+    <origin xyz="0.19 0.0 -0.123" rpy="0 0 0"/>
+</xacro:sensor_d435i>
+
+
+<!-- <link name="camera_link">
+  <inertial>
+    <origin xyz="0.02250186157456649 -0.012170191662070173 -4.841632463749995e-05" rpy="0 0 0"/>
+    <mass value="0.3783798758579474"/>
+    <inertia ixx="3.5e-05" iyy="0.000238" izz="0.00024" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.2125 0.0801 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/d435.dae" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.2125 0.0801 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/d435.dae" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link> -->
+
+<link name="imu_1">
+  <inertial>
+    <origin xyz="-2.498001805406602e-16 -2.832380316594574e-16 -0.001500000000000043" rpy="0 0 0"/>
+    <mass value="0.013392238730737303"/>
+    <inertia ixx="0.0" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.19 0.0 -0.123" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.19 0.0 -0.123" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leddar_link">
+  <inertial>
+    <origin xyz="0.014347116338889798 -0.0207738370294952 -0.03147121538060199" rpy="0 0 0"/>
+    <mass value="0.787260089444121"/>
+    <inertia ixx="0.000441" iyy="0.000392" izz="0.000201" ixy="0.0" iyz="2.1e-05" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.2045 0.065944 -0.11975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/leddar_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.2045 0.065944 -0.11975" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/leddar_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="top_layer">
+  <inertial>
+    <origin xyz="-0.07128067734255081 -0.13124648626634824 -0.017146788239869287" rpy="0 0 0"/>
+    <mass value="1.409068003090126"/>
+    <inertia ixx="0.00785" iyy="0.004372" izz="0.009" ixy="-6e-06" iyz="-0.001801" ixz="-8e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.118786 -0.096214 -0.126" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/top_layer.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.118786 -0.096214 -0.126" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/top_layer.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="laser_link">
+  <inertial>
+    <origin xyz="-1.483403043778253e-05 0.0005651559627063063 0.019298615713634254" rpy="0 0 0"/>
+    <mass value="1.2982579906067595"/>
+    <inertia ixx="0.00059" iyy="0.000619" izz="0.000863" ixy="-0.0" iyz="-1.7e-05" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.19 0.00225 -0.13" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/laser_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.19 0.00225 -0.13" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/laser_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="light_sensor">
+  <inertial>
+    <origin xyz="-0.24449999912083026 -0.0014999999999998487 -0.07999365377088265" rpy="0 0 0"/>
+    <mass value="0.006554663027076863"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.116 0.104 -0.104997" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/light_sensor.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.116 0.104 -0.104997" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://urdf_deneme_v1_description/meshes/light_sensor.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+
+
+<!-- <joint name="Sert 1" type="fixed">
+  <origin xyz="-0.2125 -0.0801 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="camera_link"/>
+</joint> -->
+
+<joint name="Sert 2" type="fixed">
+  <origin xyz="-0.071214 -0.096214 -0.003" rpy="0 0 0"/>
+  <parent link="top_layer"/>
+  <child link="imu_1"/>
+</joint>
+
+<joint name="Sert 3" type="fixed">
+  <origin xyz="-0.2045 -0.065944 0.11975" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="leddar_link"/>
+</joint>
+
+<!--<joint name="Sert 4" type="fixed">
+  <origin xyz="-0.12 -0.03 0.072446" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Raf_1"/>
+</joint>-->
+
+<joint name="Sert 5" type="fixed">
+  <origin xyz="-0.118786 0.096214 0.126" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="top_layer"/>
+</joint>
+
+<joint name="Sert 6" type="fixed">
+  <origin xyz="-0.071214 -0.098464 0.004" rpy="0 0 0"/>
+  <parent link="top_layer"/>
+  <child link="laser_link"/>
+</joint>
+
+<joint name="Sert 7" type="fixed">
+  <origin xyz="0.234786 -0.200214 -0.021003" rpy="0 0 0"/>
+  <parent link="top_layer"/>
+  <child link="light_sensor"/>
+</joint>
+
+</robot>
+

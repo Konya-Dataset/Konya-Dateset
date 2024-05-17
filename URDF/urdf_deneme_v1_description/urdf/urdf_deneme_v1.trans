@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<robot name="urdf_deneme_v1" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+</robot>
