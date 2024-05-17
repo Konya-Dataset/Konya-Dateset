@@ -1,6 +1,6 @@
 # Investigating the Characteristics of Environments and a Wide Variety of Indoor Challenges
 
-<table><tbody><tr><td colspan="2"><img src="figures/kutu.jpg"></td></tr></tbody></table>
+<table><tbody><tr><td colspan="2"><img src="/kutu.jpg"></td></tr></tbody></table>
 
 ---
 
